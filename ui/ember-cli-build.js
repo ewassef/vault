@@ -20,7 +20,7 @@ module.exports = function(defaults) {
       //paths: [],
       optimizer: {},
       sourceDirs: ['node_modules/@hashicorp/structure-icons/dist', 'public'],
-      rootURL: '/ui/',
+      rootURL: './ui/',
     },
     assetLoader: {
       generateURI: function(filePath) {
